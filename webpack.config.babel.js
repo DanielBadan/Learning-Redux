@@ -2,6 +2,7 @@ import path from 'path';
 
 export default {
   devtool: 'eval',
+  devServer: { inline: true },
   entry: './src/index',
   output: {
     path: path.join(__dirname, 'dist'),
